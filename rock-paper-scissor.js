@@ -16,7 +16,7 @@ const head=document.querySelector('.heading')
    
      const computerMove = pickRandomMove();
      let result = '';
-     if(playerMove==='Scissor')
+     if(playerMove==='scissor')
      {
            if(computerMove==='rock'){
              result=('You Lose.')
@@ -30,7 +30,7 @@ const head=document.querySelector('.heading')
  
           }
  
- else if(playerMove==='Rock')
+ else if(playerMove==='rock')
  {
      
      if(computerMove==='rock'){
@@ -48,7 +48,7 @@ const head=document.querySelector('.heading')
    
 
 
- else if (playerMove==='Paper') 
+ else if (playerMove==='paper') 
  {
      
      if(computerMove==='rock'){
